@@ -28,6 +28,7 @@ namespace ServiceStackForLeafletjs
             //this.Plugins.Add(new CorsFeature());
 
             this.Plugins.Add(new RazorFormat());
+            
         }
     }
 }

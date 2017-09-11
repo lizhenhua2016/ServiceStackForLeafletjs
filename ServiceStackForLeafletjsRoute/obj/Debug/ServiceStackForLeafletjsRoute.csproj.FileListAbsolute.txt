@@ -2,3 +2,4 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStackForLeafletjsRoute.pdb
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\obj\Debug\ServiceStackForLeafletjsRoute.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\obj\Debug\ServiceStackForLeafletjsRoute.pdb
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\obj\Debug\ServiceStackForLeafletjsRoute.csprojResolveAssemblyReference.cache

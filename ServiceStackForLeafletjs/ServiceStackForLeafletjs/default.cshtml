@@ -1,27 +1,22 @@
 ﻿@inherits ViewPage
-@{
-    ViewBag.Title = "Hello World Service";
-}
-<div>
-    <div>
-        <input class="form-control input-lg" id="Name" type="text" placeholder="Type your name">
-        <p id="helloResult" style="margin-top: 15px;font-size: large"></p>
-    </div>
-</div>
-<script>
-    $('#Name').keyup(function () {
-        var name = $('#Name').val();
-        if (name) {
-            $.getJSON('/hello/' + name)
-                .success(function (response) {
-                    $('#helloResult').html(response.Result);
-                });
-        } else {
-            $('#helloResult').html('');
-        }
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/api/Audit/GetAuditApplication",
+            dataType: "json",
+            data: {"adcd":"330726000000000","level":"3"},
+            success: function (data) {
+                //alert("success");
+                var haha = eval(data);
+               
+                $.each(haha, function (i, item) {
+                    alert(i);
+                });               
+            },
+            error: function () {
+                alert("error");
+            }
+        });
     });
 </script>
-
-<h4 style="position: absolute; bottom: 20px; width: 100%; text-align: center">
-    <a href="https://servicestack.net/vs-templates/BootstrapWebApp">Learn about ASP.NET Bootstrap VS.NET templates</a>
-</h4>
