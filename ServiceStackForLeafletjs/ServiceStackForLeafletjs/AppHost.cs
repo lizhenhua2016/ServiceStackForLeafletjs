@@ -19,7 +19,7 @@ namespace ServiceStackForLeafletjs
         /// Base constructor requires a Name and Assembly where web service implementation is located
         /// </summary>
         public AppHost()
-            : base("ServiceStackForLeafletjs", typeof(MyServices).Assembly) { }
+            : base("ServiceStackForLeafletjs", typeof(AdcdService).Assembly) { }
 
         /// <summary>
         /// Application specific configuration
@@ -52,7 +52,7 @@ namespace ServiceStackForLeafletjs
 
             container.Register<ICacheClient>(new MemoryCacheClient());
             container.Register<ISessionFactory>(c => new SessionFactory(c.Resolve<ICacheClient>()));
-            container.Register<IUserAuthRepository>(new OrmLiteAuthRepository(connFactory) { UseDistinctRoleTables = true });
+            //container.Register<IUserAuthRepository>(new OrmLiteAuthRepository(connFactory) { UseDistinctRoleTables = true });
         }
     }
 }

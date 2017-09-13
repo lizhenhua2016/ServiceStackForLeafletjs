@@ -7,7 +7,6 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Common.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Interfaces.dll
-E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Text.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Client.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Common.xml
