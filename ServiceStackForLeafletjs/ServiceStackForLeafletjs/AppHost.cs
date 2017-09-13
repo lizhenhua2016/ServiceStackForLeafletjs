@@ -1,11 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Funq;
+﻿using Funq;
 using ServiceStack;
+using ServiceStack.Api.Swagger;
+using ServiceStack.Auth;
+using ServiceStack.Caching;
+using ServiceStack.Data;
+using ServiceStack.Logging;
+using ServiceStack.Logging.Log4Net;
+using ServiceStack.OrmLite;
 using ServiceStack.Razor;
 using ServiceStackForLeafletjs.ServiceInterface;
+using System.Configuration;
 
 namespace ServiceStackForLeafletjs
 {
@@ -28,7 +32,27 @@ namespace ServiceStackForLeafletjs
             //this.Plugins.Add(new CorsFeature());
 
             this.Plugins.Add(new RazorFormat());
-            
+            this.Plugins.Add(new CorsFeature(allowedMethods: "GET, POST"));
+            this.Plugins.Add(new SwaggerFeature() { });
+
+            this.Plugins.Add(new AuthFeature(() =>
+                new AuthUserSession(),
+                new IAuthProvider[] {
+                new CredentialsAuthProvider(),
+            }));
+            this.Plugins.Add(new RegistrationFeature());
+
+            LogManager.LogFactory = new Log4NetFactory(configureLog4Net: true);
+            ServiceStack.Text.JsConfig.EmitCamelCaseNames = true;
+
+            var connectString = ConfigurationManager.ConnectionStrings["connectstring"].ConnectionString;
+            var connFactory = new OrmLiteConnectionFactory(connectString);
+
+            container.Register<IDbConnectionFactory>(c => connFactory);
+
+            container.Register<ICacheClient>(new MemoryCacheClient());
+            container.Register<ISessionFactory>(c => new SessionFactory(c.Resolve<ICacheClient>()));
+            container.Register<IUserAuthRepository>(new OrmLiteAuthRepository(connFactory) { UseDistinctRoleTables = true });
         }
     }
 }

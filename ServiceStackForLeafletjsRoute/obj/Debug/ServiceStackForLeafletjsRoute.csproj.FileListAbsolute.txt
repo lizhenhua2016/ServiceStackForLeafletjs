@@ -3,3 +3,16 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\obj\Debug\ServiceStackForLeafletjsRoute.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\obj\Debug\ServiceStackForLeafletjsRoute.pdb
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\obj\Debug\ServiceStackForLeafletjsRoute.csprojResolveAssemblyReference.cache
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Client.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Common.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Interfaces.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Text.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.xml
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Client.xml
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Common.xml
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Interfaces.xml
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Text.xml
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStackForLeafletjsResponse.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\Dy.Common.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStackForLeafletjsResponse.pdb
