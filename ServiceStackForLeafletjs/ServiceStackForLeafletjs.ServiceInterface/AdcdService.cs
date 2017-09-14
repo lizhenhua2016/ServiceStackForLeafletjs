@@ -1,16 +1,18 @@
-﻿using ServiceStackForLeafletjs.ServiceModel;
+﻿using ServiceStack;
+using ServiceStackForLeafletjs.ServiceModel;
 using ServiceStackForLeafletjsResponse;
 using ServiceStackForLeafletjsRoute;
+using System.Collections.Generic;
 
 namespace ServiceStackForLeafletjs.ServiceInterface
 {
-    public class AdcdService
+    public class AdcdService : Service
     {
-        private IAdcdService Adcdservice { get; set; }
+        public IAdcdService Adcdservice { get; set; }
 
-        public ResponseAdcdByUserAdcd post(GetAdcdByUseradcd request)
+        public List<ResponseAdcdByUserAdcd> post(GetAdcdByUseradcd request)
         {
-            return Adcdservice.GetAdcdInfoByAdcd(request);
+            return Adcdservice.GetAdcdInfoByAdcdForTree(request);
         }
     }
 }

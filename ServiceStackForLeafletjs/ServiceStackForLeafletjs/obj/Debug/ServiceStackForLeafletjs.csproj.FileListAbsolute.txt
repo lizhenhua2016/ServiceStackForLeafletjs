@@ -39,3 +39,6 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bi
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.OrmLite.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.OrmLite.SqlServer.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.OrmLite.SqlServer.xml
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\System.Web.Mvc.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\System.Web.Mvc.xml
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\zh-Hans\System.Web.Mvc.resources.dll

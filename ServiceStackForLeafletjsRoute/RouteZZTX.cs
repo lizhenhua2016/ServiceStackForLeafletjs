@@ -2,10 +2,11 @@
 {
     using ServiceStack;
     using ServiceStackForLeafletjsResponse;
-    
-    [Route("/ZZTX/GetZZTX","GET",Summary ="获取全部的")]
-    [Api("adcd")]
-    public class GetAdcdByUseradcd : IReturn<ResponseAdcdByUserAdcd>
+    using System.Collections.Generic;
+
+    [Route("/ZZTX/GetZZTX","POST",Summary ="获取全部的")]
+    [Api("全部的adcd")]
+    public class GetAdcdByUseradcd : IReturn<List<ResponseAdcdByUserAdcd> >
     {
         [ApiMember(IsRequired =false,DataType ="string",Description ="这个是输入的adcd")]
         public string UserAdcd { get; set; }

@@ -1,4 +1,5 @@
 ﻿using Funq;
+using Microsoft.SqlServer.Types;
 using ServiceStack;
 using ServiceStack.Api.Swagger;
 using ServiceStack.Auth;
@@ -9,6 +10,7 @@ using ServiceStack.Logging.Log4Net;
 using ServiceStack.OrmLite;
 using ServiceStack.Razor;
 using ServiceStackForLeafletjs.ServiceInterface;
+using ServiceStackForLeafletjs.ServiceModel;
 using System.Configuration;
 
 namespace ServiceStackForLeafletjs
@@ -33,7 +35,7 @@ namespace ServiceStackForLeafletjs
 
             this.Plugins.Add(new RazorFormat());
             this.Plugins.Add(new CorsFeature(allowedMethods: "GET, POST"));
-            this.Plugins.Add(new SwaggerFeature() { });
+            this.Plugins.Add(new SwaggerFeature());
 
             this.Plugins.Add(new AuthFeature(() =>
                 new AuthUserSession(),
@@ -44,7 +46,7 @@ namespace ServiceStackForLeafletjs
 
             LogManager.LogFactory = new Log4NetFactory(configureLog4Net: true);
             ServiceStack.Text.JsConfig.EmitCamelCaseNames = true;
-
+            SqlServerDialect.Provider.RegisterConverter<SqlGeometry>(new SqlGeometryConverter());
             var connectString = ConfigurationManager.ConnectionStrings["connectstring"].ConnectionString;
             var connFactory = new OrmLiteConnectionFactory(connectString,SqlServerDialect.Provider);
 
@@ -53,6 +55,7 @@ namespace ServiceStackForLeafletjs
             container.Register<ICacheClient>(new MemoryCacheClient());
             container.Register<ISessionFactory>(c => new SessionFactory(c.Resolve<ICacheClient>()));
             //container.Register<IUserAuthRepository>(new OrmLiteAuthRepository(connFactory) { UseDistinctRoleTables = true });
+            container.RegisterAs<AdcdServiceImpl,IAdcdService>();
         }
     }
 }

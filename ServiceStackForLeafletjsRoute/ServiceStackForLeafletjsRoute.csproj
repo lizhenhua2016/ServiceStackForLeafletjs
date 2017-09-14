@@ -62,6 +62,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\ServiceStackForLeafletjsModel.csproj">
+      <Project>{ec9c5280-2a7d-40e3-a64e-c7092d7f13e6}</Project>
+      <Name>ServiceStackForLeafletjsModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ServiceStackForLeafletjs\ServiceStackForLeafletjsResponse\ServiceStackForLeafletjsResponse.csproj">
       <Project>{3cc0e10d-2f0f-462c-85dc-9c86a859a09e}</Project>
       <Name>ServiceStackForLeafletjsResponse</Name>

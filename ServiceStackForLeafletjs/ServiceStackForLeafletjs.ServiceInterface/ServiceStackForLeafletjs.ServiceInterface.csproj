@@ -89,6 +89,36 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Dy.Common.dll" />
+    <Content Include="bin\Debug\ServiceStack.Client.dll" />
+    <Content Include="bin\Debug\ServiceStack.Client.xml" />
+    <Content Include="bin\Debug\ServiceStack.Common.dll" />
+    <Content Include="bin\Debug\ServiceStack.Common.xml" />
+    <Content Include="bin\Debug\ServiceStack.dll" />
+    <Content Include="bin\Debug\ServiceStack.Interfaces.dll" />
+    <Content Include="bin\Debug\ServiceStack.Interfaces.xml" />
+    <Content Include="bin\Debug\ServiceStack.OrmLite.dll" />
+    <Content Include="bin\Debug\ServiceStack.OrmLite.xml" />
+    <Content Include="bin\Debug\ServiceStack.Redis.dll" />
+    <Content Include="bin\Debug\ServiceStack.Redis.xml" />
+    <Content Include="bin\Debug\ServiceStack.Server.dll" />
+    <Content Include="bin\Debug\ServiceStack.Server.xml" />
+    <Content Include="bin\Debug\ServiceStack.xml" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceInterface.dll" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceInterface.pdb" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceModel.dll" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceModel.pdb" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjsModel.dll" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjsModel.pdb" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjsResponse.dll" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjsResponse.pdb" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjsRoute.dll" />
+    <Content Include="bin\Debug\ServiceStackForLeafletjsRoute.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

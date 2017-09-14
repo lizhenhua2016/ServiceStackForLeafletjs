@@ -1,0 +1,44 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    overflow: hidden;
+}
+
+.province, .city, .county, .town, .village {
+    display: none;
+    position: absolute;
+}
+
+.province {
+    width: 800px;
+    height: 50px;
+    border: 1px solid #fff;
+    top: 60px;
+    left: 100px;
+    z-index: 999;
+    background: #fff;
+    line-height: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+    .province ul {
+        margin:0;
+        padding:0;
+    }
+    .province ul li{
+       width:50px;
+       display:inline-block;
+    }
+.licss {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .licss li {
+        float: left;
+        margin:2px;
+    }

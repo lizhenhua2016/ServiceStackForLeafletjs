@@ -2,15 +2,15 @@
 using ServiceStack.OrmLite;
 using ServiceStackForLeafletjsModel;
 using ServiceStackForLeafletjsResponse;
+using ServiceStackForLeafletjsRoute;
 using System;
 using System.Collections.Generic;
-using ServiceStackForLeafletjsRoute;
 
 namespace ServiceStackForLeafletjs.ServiceModel
 {
     public class AdcdServiceImpl : IAdcdService
     {
-        private IDbConnectionFactory DbFactory { get; set; }
+        public IDbConnectionFactory DbFactory { get; set; }
 
         public List<ADCDInfo> GetAdcdInfo()
         {
@@ -27,9 +27,16 @@ namespace ServiceStackForLeafletjs.ServiceModel
 
         public List<ResponseAdcdByUserAdcd> GetAdcdInfoByAdcdForTree(GetAdcdByUseradcd request)
         {
-            using (var db = DbFactory.Open())
+            if (string.IsNullOrEmpty(request.UserAdcd))
             {
-                return db.SqlList<ResponseAdcdByUserAdcd>("exec ", new { });
+                return null;
+            }
+            else
+            {
+                using (var db = DbFactory.Open())
+                {
+                    return db.SqlList<ResponseAdcdByUserAdcd>("exec GetAdcdInfoByAdcdForTree @adcd", new { adcd = request.UserAdcd });
+                }
             }
         }
 
