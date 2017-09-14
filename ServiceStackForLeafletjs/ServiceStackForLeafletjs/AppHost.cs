@@ -19,7 +19,7 @@ namespace ServiceStackForLeafletjs
         /// Base constructor requires a Name and Assembly where web service implementation is located
         /// </summary>
         public AppHost()
-            : base("ServiceStackForLeafletjs", typeof(AdcdService).Assembly) { }
+            : base("ServiceStackForLeafletjs", typeof(MyServices).Assembly) { }
 
         /// <summary>
         /// Application specific configuration
@@ -46,7 +46,7 @@ namespace ServiceStackForLeafletjs
             ServiceStack.Text.JsConfig.EmitCamelCaseNames = true;
 
             var connectString = ConfigurationManager.ConnectionStrings["connectstring"].ConnectionString;
-            var connFactory = new OrmLiteConnectionFactory(connectString);
+            var connFactory = new OrmLiteConnectionFactory(connectString,SqlServerDialect.Provider);
 
             container.Register<IDbConnectionFactory>(c => connFactory);
 

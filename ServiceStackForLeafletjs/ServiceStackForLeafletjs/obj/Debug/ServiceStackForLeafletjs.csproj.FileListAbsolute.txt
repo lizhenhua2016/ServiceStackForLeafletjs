@@ -21,10 +21,7 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bi
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.Interfaces.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.Logging.Log4Net.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.OrmLite.xml
-E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.OrmLite.SqlServer.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.Razor.xml
-E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.Redis.xml
-E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.Server.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.Text.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\System.Web.Helpers.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\System.Web.Razor.xml
@@ -38,3 +35,7 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ob
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\obj\Debug\ServiceStackForLeafletjs.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\obj\Debug\ServiceStackForLeafletjs.pdb
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.Text.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.Common.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.OrmLite.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.OrmLite.SqlServer.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\ServiceStack.OrmLite.SqlServer.xml

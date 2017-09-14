@@ -54,19 +54,38 @@
       <HintPath>..\..\packages\ServiceStack.4.5.14\lib\net45\ServiceStack.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="ServiceStack.Api.Swagger, Version=4.5.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\ServiceStack.Api.Swagger.4.5.14\lib\net45\ServiceStack.Api.Swagger.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="ServiceStack.Client, Version=4.5.14.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\ServiceStack.Client.4.5.14\lib\net45\ServiceStack.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack.Common, Version=4.5.14.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\ServiceStack.Common.4.5.14\lib\net45\ServiceStack.Common.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack.Interfaces, Version=4.0.0.0, Culture=neutral, PublicKeyToken=e06fbc6124f57c43, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\ServiceStack.Interfaces.4.5.14\lib\portable-wp80+sl5+net45+win8+wpa81+monotouch+monoandroid+xamarin.ios10\ServiceStack.Interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ServiceStack.Logging.Log4Net, Version=4.5.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\ServiceStack.Logging.Log4Net.4.5.14\lib\net45\ServiceStack.Logging.Log4Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite, Version=4.5.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ServiceStack.OrmLite.4.5.14\lib\net45\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.SqlServer, Version=4.5.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ServiceStack.OrmLite.SqlServer.4.5.14\lib\net45\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Razor, Version=4.5.14.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\ServiceStack.Razor.4.5.14\lib\net45\ServiceStack.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ServiceStack.Text, Version=4.5.14.0, Culture=neutral, processorArchitecture=MSIL">
@@ -106,23 +125,15 @@
     <Content Include="bin\ServiceStack.Api.Swagger.xml" />
     <Content Include="bin\ServiceStack.Client.dll" />
     <Content Include="bin\ServiceStack.Client.xml" />
-    <Content Include="bin\ServiceStack.Common.dll" />
-    <Content Include="bin\ServiceStack.Common.xml" />
     <Content Include="bin\ServiceStack.dll" />
     <Content Include="bin\ServiceStack.Interfaces.dll" />
     <Content Include="bin\ServiceStack.Interfaces.xml" />
     <Content Include="bin\ServiceStack.Logging.Log4Net.dll" />
     <Content Include="bin\ServiceStack.Logging.Log4Net.xml" />
-    <Content Include="bin\ServiceStack.OrmLite.dll" />
-    <Content Include="bin\ServiceStack.OrmLite.SqlServer.dll" />
-    <Content Include="bin\ServiceStack.OrmLite.SqlServer.xml" />
-    <Content Include="bin\ServiceStack.OrmLite.xml" />
     <Content Include="bin\ServiceStack.Razor.dll" />
     <Content Include="bin\ServiceStack.Razor.xml" />
     <Content Include="bin\ServiceStack.Redis.dll" />
-    <Content Include="bin\ServiceStack.Redis.xml" />
     <Content Include="bin\ServiceStack.Server.dll" />
-    <Content Include="bin\ServiceStack.Server.xml" />
     <Content Include="bin\ServiceStack.xml" />
     <Content Include="bin\ServiceStackForLeafletjs.dll" />
     <Content Include="bin\ServiceStackForLeafletjs.pdb" />
@@ -211,6 +222,28 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ServiceStackForLeafletjsRoute\ServiceStackForLeafletjsRoute.csproj">
+      <Project>{0dea2262-056f-40af-97af-b3881b801cee}</Project>
+      <Name>ServiceStackForLeafletjsRoute</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceStackForLeafletjs.ServiceInterface\ServiceStackForLeafletjs.ServiceInterface.csproj">
+      <Project>{3ada98b6-22ef-40b2-8d28-f8b21d90a719}</Project>
+      <Name>ServiceStackForLeafletjs.ServiceInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceStackForLeafletjs.ServiceModel\ServiceStackForLeafletjs.ServiceModel.csproj">
+      <Project>{3b964640-9ca0-4868-a11b-8924c02a99cb}</Project>
+      <Name>ServiceStackForLeafletjs.ServiceModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceStackForLeafletjsModel\ServiceStackForLeafletjsModel.csproj">
+      <Project>{ec9c5280-2a7d-40e3-a64e-c7092d7f13e6}</Project>
+      <Name>ServiceStackForLeafletjsModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceStackForLeafletjsResponse\ServiceStackForLeafletjsResponse.csproj">
+      <Project>{3cc0e10d-2f0f-462c-85dc-9c86a859a09e}</Project>
+      <Name>ServiceStackForLeafletjsResponse</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
