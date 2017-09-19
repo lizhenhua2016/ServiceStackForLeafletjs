@@ -1,0 +1,31 @@
+﻿@inherits ViewPage
+@{ViewBag.title = "地图"; }
+@section Style{
+    <link href="https://cdn.bootcss.com/leaflet/1.2.0/leaflet.css" rel="stylesheet">
+    <link href="~/Content/site.css" rel="stylesheet" />
+}
+<div id="map"></div>
+<div class="province"></div>
+<div class="city"></div>
+<div class="county"></div>
+<div class="town"></div>
+<div class="village"></div>
+
+@section Scripts{
+    <script src="https://cdn.bootcss.com/leaflet/1.2.0/leaflet.js"></script>
+    <script src="https://cdn.bootcss.com/leaflet/1.2.0/leaflet-src.js"></script>
+    <script src="~/Scripts/leaflet.ChineseTmsProviders.js"></script>
+    <script src="~/Scripts/TdtLoad.js"></script>
+    <script src="~/Scripts/StringBuilder.js"></script>
+    <script src="~/Scripts/GetAdcdTree.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            
+            $(".province").show();
+            $(".province").html("<ul><li><b>浙江省</b></li></ul>");
+            $(".province ul li").click(function () {                               
+                GetAdcdTreeprovince(".province","330000000000000");                
+            });
+        });
+    </script>
+}

@@ -1,0 +1,36 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    overflow: hidden;
+}
+
+.province, .city, .county, .town, .village {
+    display: none;
+    position: absolute;
+    font-size:12px;
+    font-family:微软雅黑,宋体;
+}
+
+.province {
+    width: 800px; 
+    top: 60px;
+    left: 100px;
+    z-index: 999;
+    background: #fff;
+    
+    padding: 10px;
+    cursor: pointer;
+}
+    .province ul {
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
+    .province ul li{       
+       float:left;
+       color:#056365;
+       margin:5px;
+    }

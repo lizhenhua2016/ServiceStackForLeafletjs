@@ -4,7 +4,7 @@
     using ServiceStackForLeafletjsResponse;
     using System.Collections.Generic;
 
-    [Route("/ZZTX/GetZZTX","POST",Summary ="获取全部的")]
+    [Route("/ZZTX/GetAdcdByUseradcd", "POST",Summary ="获取全部的")]
     [Api("全部的adcd")]
     public class GetAdcdByUseradcd : IReturn<List<ResponseAdcdByUserAdcd> >
     {

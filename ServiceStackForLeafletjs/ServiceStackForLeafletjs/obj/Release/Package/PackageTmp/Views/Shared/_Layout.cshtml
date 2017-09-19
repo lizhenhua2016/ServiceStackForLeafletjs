@@ -1,0 +1,30 @@
+﻿@using System.Web.UI.WebControls
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.title</title>
+
+    <!-- Bootstrap -->
+    @*<link href="/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet">*@
+    @RenderSection("Style",required:false)
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="<script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>"></script>
+      <script src="<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>"></script>
+    <![endif]-->
+</head>
+<body>
+     @RenderBody()
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/scripts/bootstrap.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

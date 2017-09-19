@@ -1,0 +1,22 @@
+﻿@inherits ViewPage
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: "GET",
+            url: "http://47.90.22.188/api/NoAuthticationAudit/GetAuditApplication",
+            dataType: "json",
+            data: {"adcd":"330726000000000","level":"3"},
+            success: function (data) {
+                //alert("success");
+                var haha = eval(data);
+               
+                $.each(haha, function (i, item) {
+                    alert(i);
+                });               
+            },
+            error: function () {
+                alert("error");
+            }
+        });
+    });
+</script>

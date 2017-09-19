@@ -1,5 +1,4 @@
-﻿@using System.Web.UI.WebControls
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -8,9 +7,9 @@
     <title>@ViewBag.title</title>
 
     <!-- Bootstrap -->
-    @*<link href="/Content/bootstrap.min.css" rel="stylesheet">
-    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet">*@
-    @RenderSection("Style",required:false)
+    <link href="/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet">
+    @RenderSection("Style", required: false)
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,12 +18,13 @@
     <![endif]-->
 </head>
 <body>
-     @RenderBody()
-    
+    @RenderBody()
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="~/Scripts/jquery-3.1.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/scripts/bootstrap.min.js"></script>
+    <script src="~/Content/layer/layer.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

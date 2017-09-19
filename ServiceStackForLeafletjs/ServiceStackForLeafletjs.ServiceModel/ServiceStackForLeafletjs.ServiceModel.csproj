@@ -62,8 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdcdServiceImpl.cs" />
+    <Compile Include="AppServiceImpl.cs" />
     <Compile Include="Hello.cs" />
     <Compile Include="IAdcdService.cs" />
+    <Compile Include="IAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

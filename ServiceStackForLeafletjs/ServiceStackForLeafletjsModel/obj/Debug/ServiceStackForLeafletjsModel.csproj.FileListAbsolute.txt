@@ -12,3 +12,4 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsMod
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\bin\Debug\ServiceStack.Common.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\bin\Debug\ServiceStack.Interfaces.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\bin\Debug\ServiceStack.Text.xml
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\bin\Debug\ServiceStack.Text.dll
