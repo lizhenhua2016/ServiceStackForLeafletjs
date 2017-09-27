@@ -11,6 +11,8 @@ namespace ServiceStackForLeafletjsResponse
         public int Id { get; set; }
         [field("用户名","string",null,null)]
         public string UserPhone { get; set; }
+        [field("adcd","string",null,null)]
+        public string UserAdcd { get; set; }
         [field("真实姓名","string",null,null)]
         public string UserName { get; set; }
         [field("事件名称","string",null,null)]

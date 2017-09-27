@@ -2,15 +2,13 @@
     $(".province").show();
     $(".province").html("<ul><li dataname='浙江省'><b>浙江省</b></li></ul>");
     $(".province ul li").click(function () {
-        window.GetAdcdTreeprovince(".province", "330000000000000", 0, "浙江省");
+        window.GetAdcdTreeprovince(".province", "330000000000000", 0, "浙江省", 1);
     });
 });
 
-function GetAdcdTreeprovince(doucmentname, adcd, level, dataname) {
-    //layer.alert(adcd);
-    layer.alert(level);
+function GetAdcdTreeprovince(doucmentname, adcd, level, dataname, type) {
     
-    if (level > 3) {
+    if (level > 4) {
         return false;
     }
 
@@ -18,25 +16,31 @@ function GetAdcdTreeprovince(doucmentname, adcd, level, dataname) {
         case 1:
             break;
         case 2:
-
             break;
         case 3:
+            $.ajax({
+                type:"post",
+                url:"",
+                dataType:"json",
+                data:{},
+                success:function (data) {
+                    
+                }
+            });
+            
             break;
         default:
 
     }
-
-   
-
     $.ajax({
         type: "post",
         url: "http://localhost/ZZTX/GetAdcdByUseradcd",
         dataType: "json",
-        data: {"UserAdcd": adcd},
+        data: {"UserAdcd": adcd,"actiontype":type},
         success: function (data) {
             $(doucmentname).empty();
             var sb = new StringBuilder();
-            sb.append("<p>当前位置:<span class='currentpostion'  data-level='"+level+"' data-name='"+dataname+"' data-adcd='"+adcd+"'>" + dataname + "</span><span class='pull-right returnback'>返回</span></p>");
+            sb.append("<p>当前位置:<span class='currentpostion'  data-level='" + level + "' data-name='" + dataname + "' data-adcd='" + adcd + "'>" + dataname + "</span><span class='pull-right returnback'>返回</span></p>");
             var haha = eval(data);
             sb.append("<ul>");
             $.each(haha, function (i, item) {
@@ -47,15 +51,25 @@ function GetAdcdTreeprovince(doucmentname, adcd, level, dataname) {
 
             $(doucmentname).children("ul").children("li").on("click", function () {
                 GetMapPoint($(this).attr("datalat"), $(this).attr("datalng"), level);
-                GetAdcdTreeprovince(doucmentname, $(this).attr("adcd"), level, $(this).attr("dataname"));
+                GetAdcdTreeprovince(doucmentname, $(this).attr("adcd"), level, $(this).attr("dataname"), 1);
             });
             $(".returnback").on("click", function () {
-                //layer.alert(doucmentname);
-                GetAdcdTreeprovince(doucmentname,$(".currentpostion").attr("data-adcd"),$(".currentpostion").attr("data-level"),$(".currentpostion").attr("data-name"));
+                GetAdcdTreeprovince(doucmentname, $(".currentpostion").attr("data-adcd"), $(".currentpostion").attr("data-level"), $(".currentpostion").attr("data-name"), 2);
             });
         }
     });
-    level = level + 1;
+    switch (type) {
+        case 1:
+            level = Number(level) + 1;
+            break;
+        case 2:
+            level = Number(level) - 1;
+            break;
+        default:
+            level = Number(level);
+    }
+
+
 }
 
 /**

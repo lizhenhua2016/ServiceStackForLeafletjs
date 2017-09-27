@@ -35,7 +35,7 @@ namespace ServiceStackForLeafletjs.ServiceModel
             {
                 using (var db = DbFactory.Open())
                 {
-                    return db.SqlList<ResponseAdcdByUserAdcd>("exec GetAdcdInfoByAdcdForTree @adcd", new { adcd = request.UserAdcd });
+                    return db.SqlList<ResponseAdcdByUserAdcd>("exec GetAdcdInfoByAdcdForTree @adcd,@type", new { adcd = request.UserAdcd,type=request.actiontype });
                 }
             }
         }

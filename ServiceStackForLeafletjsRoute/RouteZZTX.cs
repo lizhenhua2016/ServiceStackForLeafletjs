@@ -8,7 +8,7 @@
     [Api("全部的adcd")]
     public class GetAdcdByUseradcd : IReturn<List<ResponseAdcdByUserAdcd> >
     {
-        [ApiMember(IsRequired =false,DataType ="string",Description ="这个是输入的adcd")]
+        [ApiMember(IsRequired =true,DataType ="string",Description ="这个是输入的adcd")]
         public string UserAdcd { get; set; }
         [ApiMember(IsRequired =false,DataType ="int",Description ="父级Id")]
         public int parentId { get; set; }
@@ -16,5 +16,7 @@
         public int grade { get; set; }
         [ApiMember(IsRequired =false,DataType ="string",Description ="地点名称")]
         public string adnm { get; set; }
+        [ApiMember(IsRequired = true,DataType = "int",Description = "获取类型")]
+        public int actiontype { get; set; }
     }
 }

@@ -7,45 +7,58 @@
     overflow: hidden;
 }
 
-.province{
+.province {
     display: none;
     position: absolute;
-    font-size:12px;
-    font-family:微软雅黑,宋体;
-    z-index:9999;
+    font-size: 12px;
+    font-family: 微软雅黑, 宋体;
+    z-index: 9999;
 }
 
 .province {
-    width: 800px; 
+    width: 800px;
     top: 60px;
-    left: 100px;
+    left: 50px;
     z-index: 999;
     background: #fff;
-    
+
     padding: 10px;
     cursor: pointer;
 }
-    .province ul {
-        margin:0;
-        padding:0;
-        list-style:none;
-    }
-    .province ul li{       
-       float:left;
-       color:#056365;
-       margin:5px;
-    }
-.returnback {
-    margin-right:20px;
+
+.province ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
+.province ul li {
+    float: left;
+    color: #056365;
+    margin: 5px;
+}
 
-#warnlist{
-    width:300px;
-    height:600px;
-    position:absolute;
-    background:#fff;
-    right:100px;
-    top:50px;
-    z-index:999;
+.returnback {
+    margin-right: 20px;
+}
+
+#warnlist {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    background: #fff;
+    right: 50px;
+    top: 90px;
+    z-index: 999;
+}
+
+#warnlist p {
+    height: 50px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: 微软雅黑, 宋体;
+    background: #125454;
+    color: #fff;
+    line-height: 50px;
+    
 }
