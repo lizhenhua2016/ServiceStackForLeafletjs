@@ -1,5 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_ServiceStackForLeafletjs.-1612112497.00" t="ExcludeRecursive" />
+    <e p="E:\ServiceStackForLeafletjs" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ServiceStackForLeafletjs\ServiceStackForLeafletjs" t="IncludeRecursive">
+        <e p="AppHost.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Dy.Common.dll" t="Include" />
+          <e p="log4net.dll" t="Include" />
+          <e p="log4net.xml" t="Include" />
+          <e p="Microsoft.SqlServer.Types.dll" t="Include" />
+          <e p="Microsoft.Web.Infrastructure.dll" t="Include" />
+          <e p="ServiceStack.Api.Swagger.dll" t="Include" />
+          <e p="ServiceStack.Api.Swagger.xml" t="Include" />
+          <e p="ServiceStack.Client.dll" t="Include" />
+          <e p="ServiceStack.Client.xml" t="Include" />
+          <e p="ServiceStack.dll" t="Include" />
+          <e p="ServiceStack.Interfaces.dll" t="Include" />
+          <e p="ServiceStack.Interfaces.xml" t="Include" />
+          <e p="ServiceStack.Logging.Log4Net.dll" t="Include" />
+          <e p="ServiceStack.Logging.Log4Net.xml" t="Include" />
+          <e p="ServiceStack.Razor.dll" t="Include" />
+          <e p="ServiceStack.Razor.xml" t="Include" />
+          <e p="ServiceStack.Redis.dll" t="Include" />
+          <e p="ServiceStack.Server.dll" t="Include" />
+          <e p="ServiceStack.xml" t="Include" />
+          <e p="ServiceStackForLeafletjs.dll" t="Include" />
+          <e p="ServiceStackForLeafletjs.dll.config" t="Include" />
+          <e p="ServiceStackForLeafletjs.pdb" t="Include" />
+          <e p="ServiceStackForLeafletjs.ServiceInterface.dll" t="Include" />
+          <e p="ServiceStackForLeafletjs.ServiceInterface.pdb" t="Include" />
+          <e p="ServiceStackForLeafletjs.ServiceModel.dll" t="Include" />
+          <e p="ServiceStackForLeafletjs.ServiceModel.pdb" t="Include" />
+          <e p="ServiceStackForLeafletjsModel.dll" t="Include" />
+          <e p="ServiceStackForLeafletjsModel.pdb" t="Include" />
+          <e p="ServiceStackForLeafletjsResponse.dll" t="Include" />
+          <e p="ServiceStackForLeafletjsResponse.pdb" t="Include" />
+          <e p="ServiceStackForLeafletjsRoute.dll" t="Include" />
+          <e p="ServiceStackForLeafletjsRoute.pdb" t="Include" />
+          <e p="SqlServerTypes" t="Include">
+            <e p="x64" t="Include">
+              <e p="msvcr120.dll" t="Include" />
+              <e p="SqlServerSpatial140.dll" t="Include" />
+            </e>
+            <e p="x86" t="Include">
+              <e p="msvcr120.dll" t="Include" />
+              <e p="SqlServerSpatial140.dll" t="Include" />
+            </e>
+          </e>
+          <e p="System.Web.Helpers.dll" t="Include" />
+          <e p="System.Web.Helpers.xml" t="Include" />
+          <e p="System.Web.Razor.dll" t="Include" />
+          <e p="System.Web.Razor.xml" t="Include" />
+          <e p="System.Web.WebPages.Deployment.dll" t="Include" />
+          <e p="System.Web.WebPages.Deployment.xml" t="Include" />
+          <e p="System.Web.WebPages.dll" t="Include" />
+          <e p="System.Web.WebPages.Razor.dll" t="Include" />
+          <e p="System.Web.WebPages.Razor.xml" t="Include" />
+          <e p="System.Web.WebPages.xml" t="Include" />
+        </e>
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+          <e p="layer" t="Include">
+            <e p="layer.js" t="Include" />
+            <e p="mobile" t="Include">
+              <e p="layer.js" t="Include" />
+              <e p="need" t="Include">
+                <e p="layer.css" t="Include" />
+              </e>
+            </e>
+            <e p="theme" t="Include">
+              <e p="default" t="Include">
+                <e p="icon-ext.png" t="Include" />
+                <e p="icon.png" t="Include" />
+                <e p="layer.css" t="Include" />
+                <e p="loading-0.gif" t="Include" />
+                <e p="loading-1.gif" t="Include" />
+                <e p="loading-2.gif" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="site.css" t="Include" />
+        </e>
+        <e p="default.cshtml" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="map" t="Include">
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="FolderProfile.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="GetAdcdTree.js" t="Include" />
+          <e p="jquery-3.1.1.intellisense.js" t="Include" />
+          <e p="jquery-3.1.1.js" t="Include" />
+          <e p="jquery-3.1.1.min.js" t="Include" />
+          <e p="jquery-3.1.1.min.map" t="Include" />
+          <e p="jquery-3.1.1.slim.js" t="Include" />
+          <e p="jquery-3.1.1.slim.min.js" t="Include" />
+          <e p="jquery-3.1.1.slim.min.map" t="Include" />
+          <e p="leaflet.ChineseTmsProviders.js" t="Include" />
+          <e p="StringBuilder.js" t="Include" />
+          <e p="TdtLoad.js" t="Include" />
+        </e>
+        <e p="ServiceStackForLeafletjs.csproj" t="IncludeRecursive" />
+        <e p="SqlGeometryConverter.cs" t="Include" />
+        <e p="SqlServerTypes" t="Include">
+          <e p="Loader.cs" t="Include" />
+          <e p="readme.htm" t="Include" />
+          <e p="x64" t="Include">
+            <e p="msvcr120.dll" t="Include" />
+            <e p="SqlServerSpatial140.dll" t="Include" />
+          </e>
+          <e p="x86" t="Include">
+            <e p="msvcr120.dll" t="Include" />
+            <e p="SqlServerSpatial140.dll" t="Include" />
+          </e>
+        </e>
+        <e p="Views" t="Include">
+          <e p="Home" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="ServiceStackForLeafletjs\ServiceStackForLeafletjs.ServiceInterface" t="IncludeRecursive">
+        <e p="AdcdService.cs" t="Include" />
+        <e p="AppServiceInterface.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="Dy.Common.dll" t="Include" />
+            <e p="ServiceStack.Client.dll" t="Include" />
+            <e p="ServiceStack.Client.xml" t="Include" />
+            <e p="ServiceStack.Common.dll" t="Include" />
+            <e p="ServiceStack.Common.xml" t="Include" />
+            <e p="ServiceStack.dll" t="Include" />
+            <e p="ServiceStack.Interfaces.dll" t="Include" />
+            <e p="ServiceStack.Interfaces.xml" t="Include" />
+            <e p="ServiceStack.OrmLite.dll" t="Include" />
+            <e p="ServiceStack.OrmLite.xml" t="Include" />
+            <e p="ServiceStack.Redis.dll" t="Include" />
+            <e p="ServiceStack.Redis.xml" t="Include" />
+            <e p="ServiceStack.Server.dll" t="Include" />
+            <e p="ServiceStack.Server.xml" t="Include" />
+            <e p="ServiceStack.xml" t="Include" />
+            <e p="ServiceStackForLeafletjs.ServiceInterface.dll" t="Include" />
+            <e p="ServiceStackForLeafletjs.ServiceInterface.pdb" t="Include" />
+            <e p="ServiceStackForLeafletjs.ServiceModel.dll" t="Include" />
+            <e p="ServiceStackForLeafletjs.ServiceModel.pdb" t="Include" />
+            <e p="ServiceStackForLeafletjsModel.dll" t="Include" />
+            <e p="ServiceStackForLeafletjsModel.pdb" t="Include" />
+            <e p="ServiceStackForLeafletjsResponse.dll" t="Include" />
+            <e p="ServiceStackForLeafletjsResponse.pdb" t="Include" />
+            <e p="ServiceStackForLeafletjsRoute.dll" t="Include" />
+            <e p="ServiceStackForLeafletjsRoute.pdb" t="Include" />
+          </e>
+          <e p="Release" t="Include" />
+        </e>
+        <e p="MyServices.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ServiceStackForLeafletjs.ServiceInterface.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ServiceStackForLeafletjs\ServiceStackForLeafletjs.ServiceModel" t="IncludeRecursive">
+        <e p="AdcdServiceImpl.cs" t="Include" />
+        <e p="AppServiceImpl.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="Dy.Common.dll" t="Include" />
+            <e p="ServiceStack.Client.dll" t="Include" />
+            <e p="ServiceStack.Client.xml" t="Include" />
+            <e p="ServiceStack.dll" t="Include" />
+            <e p="ServiceStack.Interfaces.dll" t="Include" />
+            <e p="ServiceStack.Interfaces.xml" t="Include" />
+            <e p="ServiceStack.xml" t="Include" />
+            <e p="ServiceStackForLeafletjs.ServiceModel.dll" t="Include" />
+            <e p="ServiceStackForLeafletjs.ServiceModel.pdb" t="Include" />
+            <e p="ServiceStackForLeafletjsModel.dll" t="Include" />
+            <e p="ServiceStackForLeafletjsModel.pdb" t="Include" />
+            <e p="ServiceStackForLeafletjsResponse.dll" t="Include" />
+            <e p="ServiceStackForLeafletjsResponse.pdb" t="Include" />
+            <e p="ServiceStackForLeafletjsRoute.dll" t="Include" />
+            <e p="ServiceStackForLeafletjsRoute.pdb" t="Include" />
+          </e>
+          <e p="Release" t="Include" />
+        </e>
+        <e p="Hello.cs" t="Include" />
+        <e p="IAdcdService.cs" t="Include" />
+        <e p="IAppService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ServiceStackForLeafletjs.ServiceModel.csproj" t="IncludeRecursive" />
+        <e p="Types" t="Include" />
+      </e>
+      <e p="ServiceStackForLeafletjs\ServiceStackForLeafletjsModel" t="IncludeRecursive">
+        <e p="ADCDInfo.cs" t="Include" />
+        <e p="AppWarn.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="Dy.Common.dll" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ServiceStackForLeafletjsModel.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ServiceStackForLeafletjs\ServiceStackForLeafletjsResponse" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="Dy.Common.dll" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ResponseAdcdByUserAdcd.cs" t="Include" />
+        <e p="ResponseAppWarnList.cs" t="Include" />
+        <e p="ServiceStackForLeafletjsResponse.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ServiceStackForLeafletjs.sln" t="IncludeFlat" />
+      <e p="ServiceStackForLeafletjsRoute" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RouteApp.cs" t="Include" />
+        <e p="RouteZZTX.cs" t="Include" />
+        <e p="ServiceStackForLeafletjsRoute.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
   <component name="RiderRiderContentModelStore">
     <excludedPaths />
   </component>

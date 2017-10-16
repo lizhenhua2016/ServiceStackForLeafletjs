@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../..">
-      <sourceFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjsModel" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjsRoute" isTestSource="false" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjsRoute/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ServiceStackForLeafletjsRoute/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../packages" />
-    </content>
+    <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
