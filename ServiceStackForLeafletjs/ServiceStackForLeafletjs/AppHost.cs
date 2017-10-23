@@ -56,6 +56,7 @@ namespace ServiceStackForLeafletjs
             container.Register<ISessionFactory>(c => new SessionFactory(c.Resolve<ICacheClient>()));
             //container.Register<IUserAuthRepository>(new OrmLiteAuthRepository(connFactory) { UseDistinctRoleTables = true });
             container.RegisterAs<AdcdServiceImpl,IAdcdService>();
+            container.RegisterAs<VillagePicServiceImpl, IVillagePicService>();
         }
     }
 }

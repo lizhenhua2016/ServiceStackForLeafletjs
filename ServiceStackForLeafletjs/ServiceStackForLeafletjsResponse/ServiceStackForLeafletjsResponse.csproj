@@ -62,7 +62,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResponseAdcdByUserAdcd.cs" />
     <Compile Include="ResponseAppWarnList.cs" />
-    <Compile Include="VillagePic.cs" />
+    <Compile Include="ResponseVillagePic.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\Dy.Common.dll" />

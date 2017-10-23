@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using ServiceStackForLeafletjsRoute;
+using ServiceStackForLeafletjsResponse;
 
 namespace ServiceStackForLeafletjs.ServiceModel
 {
     public interface IVillagePicService
     {
-        List<ServiceStackForLeafletjsResponse.VillagePic> GetAllVillagePics(VillagePic request);
+        List<ResponseVillagePic> GetAllVillagePics(VillagePic request);
     }
 }

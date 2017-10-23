@@ -6,7 +6,7 @@
 
     [Route("/ZZTX/GetAdcdByUseradcd", "POST",Summary ="获取全部的")]
     [Api("全部的adcd")]
-    public class GetAdcdByUseradcd : IReturn<List<ResponseAdcdByUserAdcd> >
+    public class GetAdcdByUseradcd : IReturn<List<ResponseAdcdByUserAdcd>>
     {
         [ApiMember(IsRequired =true,DataType ="string",Description ="这个是输入的adcd")]
         public string UserAdcd { get; set; }
