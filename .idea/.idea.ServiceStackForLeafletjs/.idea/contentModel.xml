@@ -190,6 +190,7 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="ServiceStackForLeafletjs.ServiceInterface.csproj" t="IncludeRecursive" />
+        <e p="VillagePicService.cs" t="Include" />
       </e>
       <e p="ServiceStackForLeafletjs\ServiceStackForLeafletjs.ServiceModel" t="IncludeRecursive">
         <e p="AdcdServiceImpl.cs" t="Include" />
@@ -217,6 +218,7 @@
         <e p="Hello.cs" t="Include" />
         <e p="IAdcdService.cs" t="Include" />
         <e p="IAppService.cs" t="Include" />
+        <e p="IVillagePicService.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
@@ -224,6 +226,7 @@
         </e>
         <e p="ServiceStackForLeafletjs.ServiceModel.csproj" t="IncludeRecursive" />
         <e p="Types" t="Include" />
+        <e p="VillagePicServiceImpl.cs" t="Include" />
       </e>
       <e p="ServiceStackForLeafletjs\ServiceStackForLeafletjsModel" t="IncludeRecursive">
         <e p="ADCDInfo.cs" t="Include" />
@@ -254,6 +257,7 @@
         <e p="ResponseAdcdByUserAdcd.cs" t="Include" />
         <e p="ResponseAppWarnList.cs" t="Include" />
         <e p="ServiceStackForLeafletjsResponse.csproj" t="IncludeRecursive" />
+        <e p="VillagePic.cs" t="Include" />
       </e>
       <e p="ServiceStackForLeafletjs.sln" t="IncludeFlat" />
       <e p="ServiceStackForLeafletjsRoute" t="IncludeRecursive">
@@ -266,6 +270,7 @@
         <e p="RouteApp.cs" t="Include" />
         <e p="RouteZZTX.cs" t="Include" />
         <e p="ServiceStackForLeafletjsRoute.csproj" t="IncludeRecursive" />
+        <e p="VillagePic.cs" t="Include" />
       </e>
     </e>
   </component>

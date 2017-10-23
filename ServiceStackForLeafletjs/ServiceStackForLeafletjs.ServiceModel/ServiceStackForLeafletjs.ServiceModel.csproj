@@ -67,6 +67,8 @@
     <Compile Include="IAdcdService.cs" />
     <Compile Include="IAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IVillagePicService.cs" />
+    <Compile Include="VillagePicServiceImpl.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />

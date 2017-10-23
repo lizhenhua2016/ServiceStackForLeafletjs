@@ -68,6 +68,7 @@
     <Compile Include="AppServiceInterface.cs" />
     <Compile Include="MyServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VillagePicService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ServiceStackForLeafletjsRoute\ServiceStackForLeafletjsRoute.csproj">
