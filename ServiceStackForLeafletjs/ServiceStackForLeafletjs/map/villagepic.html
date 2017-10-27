@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>villagepic</title>
+
+</head>
+<body>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $.ajax({
+            type: "Post",
+            url: "/Village/GetAllPic",
+            dataType: "json",
+            data: {},
+            success: function (data) {
+                var haha = eval(data);
+
+                $.each(haha, function (i, item) {
+                    var h = removeBlock(item.filestr);
+
+                    var s = h.split(",");
+
+                    var ss = s.pop();
+                    var sss = ss.split(":").pop().replace(/\"/g, "");
+                    alert(sss);
+                });
+            }
+        });
+    });
+
+    function removeBlock(str) {
+        if (str) {
+            var reg = /^\$\{/gi;
+            var reg2 = /\}$/gi;
+            str = str.replace(reg, '');
+            str = str.replace(reg2, '');
+        }
+        return str;
+    }
+</script>
+</body>
+</html>

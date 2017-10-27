@@ -2,110 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b4fb2c3-6ed7-42a6-8bd9-f84f95ecb431" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStack.Client.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStack.Common.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStack.Interfaces.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStack.OrmLite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStack.Redis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStack.Server.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStack.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStack.Client.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStack.Interfaces.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStack.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStack.Api.Swagger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStack.Client.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStack.Interfaces.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStack.Logging.Log4Net.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStack.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStack.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/System.Web.Helpers.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/System.Web.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/System.Web.WebPages.Deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/System.Web.WebPages.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/System.Web.WebPages.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/log4net.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/VillagePic.cs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/ServiceStackForLeafletjs/v15/.suo" afterPath="$PROJECT_DIR$/.vs/ServiceStackForLeafletjs/v15/.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjs.ServiceInterface.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjs.ServiceInterface.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjs.ServiceInterface.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjs.ServiceInterface.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjs.ServiceModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjs.ServiceModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjs.ServiceModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjs.ServiceModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsResponse.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsResponse.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsResponse.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsResponse.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsRoute.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsRoute.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsRoute.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/bin/Debug/ServiceStackForLeafletjsRoute.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj/Debug/ServiceStackForLeafletjs.ServiceInterface.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj/Debug/ServiceStackForLeafletjs.ServiceInterface.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj/Debug/ServiceStackForLeafletjs.ServiceInterface.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj/Debug/ServiceStackForLeafletjs.ServiceInterface.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj/Debug/ServiceStackForLeafletjs.ServiceInterface.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj/Debug/ServiceStackForLeafletjs.ServiceInterface.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjs.ServiceModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjs.ServiceModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjs.ServiceModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjs.ServiceModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsResponse.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsResponse.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsResponse.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsResponse.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsRoute.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsRoute.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsRoute.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/bin/Debug/ServiceStackForLeafletjsRoute.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj/Debug/ServiceStackForLeafletjs.ServiceModel.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj/Debug/ServiceStackForLeafletjs.ServiceModel.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj/Debug/ServiceStackForLeafletjs.ServiceModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj/Debug/ServiceStackForLeafletjs.ServiceModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj/Debug/ServiceStackForLeafletjs.ServiceModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj/Debug/ServiceStackForLeafletjs.ServiceModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.ServiceInterface.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.ServiceInterface.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.ServiceInterface.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.ServiceInterface.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.ServiceModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.ServiceModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.ServiceModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.ServiceModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjs.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsResponse.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsResponse.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsResponse.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsResponse.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsRoute.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsRoute.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsRoute.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/bin/ServiceStackForLeafletjsRoute.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj/Debug/ServiceStackForLeafletjs.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj/Debug/ServiceStackForLeafletjs.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj/Debug/ServiceStackForLeafletjs.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj/Debug/ServiceStackForLeafletjs.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj/Debug/ServiceStackForLeafletjs.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj/Debug/ServiceStackForLeafletjs.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/bin/Debug/ServiceStackForLeafletjsModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/bin/Debug/ServiceStackForLeafletjsModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/bin/Debug/ServiceStackForLeafletjsModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/bin/Debug/ServiceStackForLeafletjsModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/obj/Debug/ServiceStackForLeafletjsModel.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/obj/Debug/ServiceStackForLeafletjsModel.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/obj/Debug/ServiceStackForLeafletjsModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/obj/Debug/ServiceStackForLeafletjsModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/obj/Debug/ServiceStackForLeafletjsModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsModel/obj/Debug/ServiceStackForLeafletjsModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/bin/Debug/ServiceStackForLeafletjsResponse.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/bin/Debug/ServiceStackForLeafletjsResponse.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/bin/Debug/ServiceStackForLeafletjsResponse.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/bin/Debug/ServiceStackForLeafletjsResponse.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj/Debug/CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj/Debug/CoreCompileInputs.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj/Debug/ServiceStackForLeafletjsResponse.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj/Debug/ServiceStackForLeafletjsResponse.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj/Debug/ServiceStackForLeafletjsResponse.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj/Debug/ServiceStackForLeafletjsResponse.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj/Debug/ServiceStackForLeafletjsResponse.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/obj/Debug/ServiceStackForLeafletjsResponse.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsModel.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsModel.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsModel.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsModel.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsResponse.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsResponse.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsResponse.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsResponse.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsRoute.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsRoute.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsRoute.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/bin/Debug/ServiceStackForLeafletjsRoute.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/obj/Debug/ServiceStackForLeafletjsRoute.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/obj/Debug/ServiceStackForLeafletjsRoute.csprojResolveAssemblyReference.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/obj/Debug/ServiceStackForLeafletjsRoute.dll" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/obj/Debug/ServiceStackForLeafletjsRoute.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/obj/Debug/ServiceStackForLeafletjsRoute.pdb" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/obj/Debug/ServiceStackForLeafletjsRoute.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/map/villagepic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ServiceStackForLeafletjs/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ServiceStackForLeafletjs/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.ServiceStackForLeafletjs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ServiceStackForLeafletjs/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs.ServiceInterface/codemap.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs.ServiceInterface/codemap.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs.ServiceInterface/global_history.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs.ServiceInterface/global_history.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs.ServiceModel/codemap.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs.ServiceModel/codemap.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs.ServiceModel/global_history.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs.ServiceModel/global_history.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs/global_history.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjs/global_history.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjsResponse/codemap.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjsResponse/codemap.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjsResponse/global_history.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjsResponse/global_history.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjsRoute/codemap.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjsRoute/codemap.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjsRoute/global_history.dat" afterPath="$PROJECT_DIR$/.vs/Supercharger/ServiceStackForLeafletjsRoute/global_history.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/VillagePicService.cs" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/VillagePicService.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj/Debug/ServiceStackForLeafletjs.ServiceInterface.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/obj/Debug/ServiceStackForLeafletjs.ServiceInterface.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/IVillagePicService.cs" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/IVillagePicService.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/VillagePicServiceImpl.cs" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/VillagePicServiceImpl.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj/Debug/ServiceStackForLeafletjs.ServiceModel.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceModel/obj/Debug/ServiceStackForLeafletjs.ServiceModel.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/AppHost.cs" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/AppHost.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj/Debug/ServiceStackForLeafletjs.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/obj/Debug/ServiceStackForLeafletjs.csproj.FileListAbsolute.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/ServiceStackForLeafletjsResponse.csproj" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/ServiceStackForLeafletjsResponse.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/RouteZZTX.cs" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/RouteZZTX.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/VillagePic.cs" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/VillagePic.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/ServiceStackForLeafletjs.csproj" afterPath="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/ServiceStackForLeafletjs.csproj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -127,36 +27,14 @@
     <favorites_list name="ServiceStackForLeafletjs" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VillagePicService.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/VillagePicService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <marker date="1508743136130" expanded="false" signature="6:175" ph="..." />
-                <marker date="1508743136130" expanded="true" signature="228:486" ph="{...}" />
-                <marker date="1508743136130" expanded="true" signature="275:484" ph="{...}" />
-                <marker date="1508743136130" expanded="true" signature="403:478" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseVillagePic.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/ResponseVillagePic.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="29" />
-              <folding>
-                <marker date="1508728681135" expanded="true" signature="42:179" ph="{...}" />
-                <marker date="1508728681135" expanded="true" signature="80:177" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -207,6 +85,8 @@
         <option value="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/RouteZZTX.cs" />
         <option value="$PROJECT_DIR$/ServiceStackForLeafletjsRoute/VillagePic.cs" />
         <option value="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/VillagePicService.cs" />
+        <option value="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/map/VillagePic.aspx" />
+        <option value="$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/map/villagepic.html" />
       </list>
     </option>
   </component>
@@ -252,6 +132,12 @@
               <item name="ServiceStackForLeafletjs (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="ServiceStackForLeafletjs" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ServiceStackForLeafletjs (6 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ServiceStackForLeafletjs" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="map" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -265,6 +151,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -366,12 +253,12 @@
       <workItem from="1508150869372" duration="1179000" />
       <workItem from="1508396370751" duration="159000" />
       <workItem from="1508725251899" duration="3125000" />
-      <workItem from="1508743137353" duration="406000" />
+      <workItem from="1508743137353" duration="7506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37294000" />
+    <option name="totallyTimeSpent" value="44394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,7 +271,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -394,7 +280,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18536325" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18536325" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -662,26 +548,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/VillagePicService.cs">
+    <entry file="file://$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/map/VillagePic.aspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <marker date="1508743136130" expanded="false" signature="6:175" ph="..." />
-            <marker date="1508743136130" expanded="true" signature="228:486" ph="{...}" />
-            <marker date="1508743136130" expanded="true" signature="275:484" ph="{...}" />
-            <marker date="1508743136130" expanded="true" signature="403:478" ph="{...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs/map/villagepic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjsResponse/ResponseVillagePic.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <marker date="1508728681135" expanded="true" signature="42:179" ph="{...}" />
             <marker date="1508728681135" expanded="true" signature="80:177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceStackForLeafletjs/ServiceStackForLeafletjs.ServiceInterface/VillagePicService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <marker date="1508743136130" expanded="false" signature="6:175" ph="..." />
+            <marker date="1508743136130" expanded="true" signature="228:486" ph="{...}" />
+            <marker date="1508743136130" expanded="true" signature="275:484" ph="{...}" />
+            <marker date="1508743136130" expanded="true" signature="403:478" ph="{...}" />
           </folding>
         </state>
       </provider>
