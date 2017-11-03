@@ -68,6 +68,7 @@
     <Compile Include="AppServiceInterface.cs" />
     <Compile Include="MyServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInfoService.cs" />
     <Compile Include="VillagePicService.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -94,19 +95,12 @@
   <ItemGroup>
     <Content Include="bin\Debug\Dy.Common.dll" />
     <Content Include="bin\Debug\ServiceStack.Client.dll" />
-    <Content Include="bin\Debug\ServiceStack.Client.xml" />
     <Content Include="bin\Debug\ServiceStack.Common.dll" />
-    <Content Include="bin\Debug\ServiceStack.Common.xml" />
     <Content Include="bin\Debug\ServiceStack.dll" />
     <Content Include="bin\Debug\ServiceStack.Interfaces.dll" />
-    <Content Include="bin\Debug\ServiceStack.Interfaces.xml" />
     <Content Include="bin\Debug\ServiceStack.OrmLite.dll" />
-    <Content Include="bin\Debug\ServiceStack.OrmLite.xml" />
     <Content Include="bin\Debug\ServiceStack.Redis.dll" />
-    <Content Include="bin\Debug\ServiceStack.Redis.xml" />
     <Content Include="bin\Debug\ServiceStack.Server.dll" />
-    <Content Include="bin\Debug\ServiceStack.Server.xml" />
-    <Content Include="bin\Debug\ServiceStack.xml" />
     <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceInterface.dll" />
     <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceInterface.pdb" />
     <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceModel.dll" />

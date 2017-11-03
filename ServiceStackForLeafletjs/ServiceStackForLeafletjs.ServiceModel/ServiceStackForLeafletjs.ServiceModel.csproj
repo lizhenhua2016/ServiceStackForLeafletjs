@@ -94,11 +94,8 @@
   <ItemGroup>
     <Content Include="bin\Debug\Dy.Common.dll" />
     <Content Include="bin\Debug\ServiceStack.Client.dll" />
-    <Content Include="bin\Debug\ServiceStack.Client.xml" />
     <Content Include="bin\Debug\ServiceStack.dll" />
     <Content Include="bin\Debug\ServiceStack.Interfaces.dll" />
-    <Content Include="bin\Debug\ServiceStack.Interfaces.xml" />
-    <Content Include="bin\Debug\ServiceStack.xml" />
     <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceModel.dll" />
     <Content Include="bin\Debug\ServiceStackForLeafletjs.ServiceModel.pdb" />
     <Content Include="bin\Debug\ServiceStackForLeafletjsModel.dll" />
