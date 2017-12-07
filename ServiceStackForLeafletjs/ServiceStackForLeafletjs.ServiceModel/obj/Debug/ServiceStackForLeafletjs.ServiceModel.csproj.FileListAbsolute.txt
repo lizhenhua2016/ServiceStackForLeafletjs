@@ -18,3 +18,4 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs.Se
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs.ServiceModel\bin\Debug\ServiceStack.OrmLite.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs.ServiceModel\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs.ServiceModel\bin\Debug\ServiceStack.Text.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs.ServiceModel\obj\Debug\ServiceStackForLeafletjs.ServiceModel.csproj.CoreCompileInputs.cache

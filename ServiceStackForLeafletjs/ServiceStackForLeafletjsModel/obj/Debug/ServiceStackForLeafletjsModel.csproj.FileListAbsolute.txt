@@ -13,3 +13,4 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsMod
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\bin\Debug\ServiceStack.Interfaces.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\bin\Debug\ServiceStack.Text.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\bin\Debug\ServiceStack.Text.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjsModel\obj\Debug\ServiceStackForLeafletjsModel.csproj.CoreCompileInputs.cache

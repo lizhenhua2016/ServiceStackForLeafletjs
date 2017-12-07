@@ -18,3 +18,4 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStack.Text.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStackForLeafletjsModel.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\bin\Debug\ServiceStackForLeafletjsModel.pdb
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjsRoute\obj\Debug\ServiceStackForLeafletjsRoute.csproj.CoreCompileInputs.cache

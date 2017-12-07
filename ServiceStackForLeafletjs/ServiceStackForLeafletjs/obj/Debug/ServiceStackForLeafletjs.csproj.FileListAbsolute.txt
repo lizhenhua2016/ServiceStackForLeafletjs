@@ -30,3 +30,4 @@ E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bi
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\System.Web.Mvc.dll
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\System.Web.Mvc.xml
 E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\ServiceStackForLeafletjs\ServiceStackForLeafletjs\ServiceStackForLeafletjs\obj\Debug\ServiceStackForLeafletjs.csproj.CoreCompileInputs.cache
